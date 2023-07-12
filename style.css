@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  color: white;
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+/* header heading section */
+header {
+  background: url("images/bg-header.jpeg");
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 85% 85% / 30%;
+}
+header .overlay {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient(135deg, #9f05ff69 10%, #fd5e086b 100%);
+}
+header a{
+  cursor: pointer;
+}
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 80px;
+}
+
+h3,
+p {
+  font-family: "Open Sans", sans-serif;
+}
+p {
+  padding-top: 10px;
+}
+
+#image-container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.navbar-toggler-icon {
+    background-color: #ff3d77;
+  }
+.toggle-icon-top {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  color: #ff3d77;
+}
+#heading {
+  margin-top: 10px;
+  z-index: 1;
+}
+#heading h1 {
+  color: #ff3d77;
+}
+
+/* header search bar section */
+#search-bar {
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#search-bar input {
+  border: none;
+  background: linear-gradient(to left, #fad0c4, #fff);
+  padding: 10px;
+  color: #ff3d77;
+  font-size: 20px;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+  border-radius: 10px 0 0 0;
+  box-shadow: 0 3px 8px 0 #0000003b;
+}
+#search-bar input:focus {
+  box-shadow: 0 5px 8px #ff9a9e, 0 0 10px #fad0c4;
+}
+button{
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 0 10px 0 0;
+  box-shadow: 0 3px 8px 0 #0000003b;
+}
+button:hover {
+  cursor: pointer;
+  box-shadow: 0 5px 8px #ff9a9e, 0 0 10px #fad0c4;
+}
+#searchBtn {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.9);
+  background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+  background-size: 600%;
+  animation: anime 16s linear infinite;
+}
+/* searchicon button color animation */
+@keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+#heading-text {
+  color: #ff3d77;
+}
+
+/* meal card */
+#card {
+  background-color: rgb(47, 41, 2);
+  background-color: #f8f9fa;
+  padding: 10px;
+  color: ff3d77;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#card img {
+  border-radius: 50%;
+  opacity: 0.8;
+}
+#card img:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  opacity: 1;
+}
+.card-body{
+    color: #ff9a9e;
+}
+.card-body h5{
+    color: #ff3d77;
+}
+.card::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ff3d77;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.card:hover::before {
+  transform: scaleX(1);
+}
+.card-title{
+  font-size: 40px;
+}
+
+.card-button {
+  background: linear-gradient(-45deg, #ffa63d, #ff3d77);
+  border-radius: 5px;
+  color: #fff;
+}
+
+#meal-details {
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #ff3d77;
+}
+#meal-header {
+  width: 70%;
+  margin: auto;
+}
+#meal-thumbail img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+#details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+}
+#meal-instruction {
+  margin: auto;
+  text-align: center;
+}
+
+#offcanvasNavbarLabel{
+  font-size: 30px;
+  color:#ff3d77;
+}

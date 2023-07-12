@@ -21,4 +21,4 @@ The Meal App is a web application that allows users to search for meals, view de
 5. To view your favourite meals, click on the toggle button in the top right corner of the navbar.
 
 **Contributing**
-Contributions are welcome! If you have suggestions or want to add new features, please fork the repository and create a pull request.
++ Contributions are welcome! If you have suggestions or want to add new features, please fork the repository and create a pull request.

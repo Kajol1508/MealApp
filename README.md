@@ -1,13 +1,13 @@
 # MealApp
 The Meal App is a web application that allows users to search for meals, view details about specific meals, and add them to their favourites list. The app utilizes the MealDB API(https://www.themealdb.com/api.php) to fetch meal data and provide relevant information to the users.
 
-**Features**
+##**Features**
 -Search for meals by name
 -View detailed information about specific meals
 -Add meals to the favourites list
 -Responsive design for seamless usage on different devices
 
-**Technologies Used**
+##**Technologies Used**
 -HTML5, CSS3
 -JavaScript
 -Bootstrap Framework
